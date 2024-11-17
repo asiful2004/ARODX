@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>অংশীদারিত্ব চুক্তিপত্র</title>
+    <style>
+        :root {
+            --background-light: #f9f9f9;
+            --background-dark: #1e1e2f;
+            --text-light: #333;
+            --text-dark: #ddd;
+            --card-light: #fff;
+            --card-dark: #2e2e3e;
+        }
+        body {
+            font-family: 'SolaimanLipi', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.8;
+            background-color: var(--background-light);
+            color: var(--text-light);
+            transition: background-color 0.5s, color 0.5s;
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            background: var(--card-light);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background 0.5s;
+        }
+        h1, h2, p, ul {
+            margin: 0 0 15px 0;
+        }
+        h1 {
+            text-align: center;
+            color: var(--text-light);
+        }
+        h2 {
+            color: var(--text-light);
+        }
+        p, ul {
+            text-align: justify;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .signature-section {
+            margin-top: 30px;
+        }
+        .signature {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .signature div {
+            flex: 1;
+            text-align: center;
+            background: var(--card-light);
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: background 0.5s;
+        }
+        .signature div img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .toggle-button {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            width: 50px;
+            height: 30px;
+            background: var(--card-light);
+            border: 2px solid var(--text-light);
+            border-radius: 30px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            padding: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background 0.5s, border-color 0.5s;
+        }
+        .toggle-button .circle {
+            width: 20px;
+            height: 20px;
+            background: var(--text-light);
+            border-radius: 50%;
+            transition: transform 0.5s, background 0.5s;
+        }
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 0.9em;
+            color: var(--text-light);
+            transition: color 0.5s;
+        }
+        body.dark-mode {
+            background-color: var(--background-dark);
+            color: var(--text-dark);
+        }
+        body.dark-mode .container {
+            background: var(--card-dark);
+        }
+        body.dark-mode h1, body.dark-mode h2 {
+            color: var(--text-dark);
+        }
+        body.dark-mode .signature div {
+            background: var(--card-dark);
+        }
+        body.dark-mode .toggle-button {
+            background: var(--card-dark);
+            border-color: var(--text-dark);
+        }
+        body.dark-mode .toggle-button .circle {
+            background: var(--text-dark);
+            transform: translateX(20px);
+        }
+        body.dark-mode footer {
+            color: var(--text-dark);
+        }
+    </style>
+</head>
+<body>
+    <div class="toggle-button" onclick="toggleDarkMode()">
+        <div class="circle"></div>
+    </div>
+    <div class="container">
+        <h1>অংশীদারিত্ব চুক্তিপত্র</h1>
+        <h2>চুক্তি নম্বর: ০১</h2>
+        <p><b>তারিখ:</b> ১৬ নভেম্বর ২০২৪</p>
+        <p><b>স্থান:</b> অনলাইন</p>
+        <p>
+            এই চুক্তিপত্রটি ARODX ব্যবসার জন্য প্রস্তুত করা হয়েছে, যা অংশীদারিত্ব ভিত্তিতে পরিচালিত হবে। 
+            এই চুক্তি হোসাইন আফনান আহমেদ অয়োন, অরুপ পাল, আসিফুল ইসলাম এর মধ্যে স্বাক্ষরিত হচ্ছে।
+        </p>
+        <h2>১. অংশীদারদের বিবরণ</h2>
+        <p>১. অংশীদার ১: হোসাইন আফনান আহমেদ অয়োন, ঠিকানা: [লিখুন]</p>
+        <p>২. অংশীদার ২: অরুপ পাল, ঠিকানা: [লিখুন]</p>
+        <p>৩. অংশীদার ৩: আসিফুল ইসলাম, ঠিকানা: ধানমন্ডি ১৫নং স্টাফ কোয়ার্টার ঢাকা-১২০৯</p>
+        <h2>২. ব্যবসার ধরন এবং নাম</h2>
+        <p>এই অংশীদারিত্ব ব্যবসার নাম হবে ARODX, এবং এর কার্যক্রম হবে অনলাইন ভিত্তিক যেমন অনলাইনে যাবতীয় যতো সাবস্ক্রিপশন, সফটওয়্যার গেমস টপ আপ ইত্যাদি।</p>
+        <h2>৩. ব্যবসার মূলধন</h2>
+        <p>১. ব্যবসার প্রাথমিক মূলধন হবে মোট ১০,০০০ টাকা।</p>
+        <p>২. প্রতিটি অংশীদার নিম্নলিখিত পরিমাণ মূলধন প্রদান করবেন:</p>
+        <ul>
+            <li>অংশীদার ১: ২০০০ টাকা</li>
+            <li>অংশীদার ২: ৫০০০ টাকা</li>
+            <li>অংশীদার ৩: ৩০০০ টাকা</li>
+        </ul>
+        <h2>৪. লাভ-ক্ষতির বণ্টন</h2>
+        <p>১. ব্যবসার মোট লাভ বা ক্ষতি অংশীদারদের মধ্যে নিম্নলিখিত অনুপাতে বণ্টিত হবে:</p>
+    <li>অংশীদার ১: ২৫%</li>
+	<li>অংশীদার ২: ২৫%</li>
+	<li>অংশীদার ৩: ২৫%</li>
+<p>বাকি ২৫% অর্থ ব্যবসায় বিনিয়োগ করা হবে অথবা অংশীদারদের ভিতর বন্টন হবে।</p>
+<h2>৫. দায়িত্ব ও কর্তব্য</h2>
+<p>১. প্রতিটি অংশীদার তাদের নিজ নিজ দায়িত্ব যথাযথভাবে পালন করবেন।</p>
+<p>২. কোনো অংশীদার ব্যবসার স্বার্থবিরোধী কোনো কাজ করতে পারবেন না।</p>
+<p>৩. ব্যবসার গুরুত্বপূর্ণ সিদ্ধান্ত গ্রহণের জন্য সকল অংশীদারের সম্মতি প্রয়োজন হবে।</p>
+
+<h2>৬. চুক্তির মেয়াদ</h2>
+<p>এই চুক্তির মেয়াদ হবে মেয়াদ ২ বছর। পরবর্তীতে সব পক্ষের সম্মতিতে মেয়াদ নবায়ন করা যাবে।</p>
+<h2>৭. চুক্তি বাতিলের শর্ত</h2>
+<p>১. কোনো অংশীদার চুক্তি বাতিল করতে চাইলে তাকে কমপক্ষে ৩ মাস আগে লিখিত নোটিশ দিতে হবে।</p>
+<p>২. চুক্তি বাতিল হলে ব্যবসার স্থাবর ও অস্থাবর সম্পত্তি অংশীদারদের মধ্যে তাদের অংশীদারিত্বের অনুপাতে বণ্টিত হবে।</p>
+<h2>৮. আইনি সমাধান</h2>
+<p>এই চুক্তি সম্পর্কিত কোনো বিরোধ দেখা দিলে তা প্রথমে অংশীদারদের মধ্যে আলোচনার মাধ্যমে সমাধানের চেষ্টা করা হবে। ব্যর্থ হলে স্থানীয় আদালত  এর অধীনে মামলা করা যাবে।</p>
+<h2>৯. অন্যান্য শর্ত</h2>
+<p>১. এই চুক্তির কোনো শর্ত পরিবর্তন করতে হলে সকল অংশীদারের সম্মতি প্রয়োজন।</p>
+<p>২. সমস্ত পক্ষ এই চুক্তির শর্ত মেনে চলতে বাধ্য থাকবেন।</p>
+
+
+
+<div class="signature-section">
+    <h2>১০. স্বাক্ষর</h2>
+    <div class="signature">
+        <div>
+            <p>অংশীদার ১</p>
+            <p>নাম: হোসাইন আফনান আহমেদ অয়োন</p>
+            <p>তারিখ:</p>
+            <img src="sign1.png" alt="Signature 1">
+        </div>
+        <div>
+            <p>অংশীদার ২</p>
+            <p>নাম: অরুপ পাল</p>
+            <p>তারিখ:</p>
+            <img src="sign2.png" alt="Signature 2">
+        </div>
+        <div>
+            <p>অংশীদার ৩</p>
+            <p>নাম: আসিফুল ইসলাম</p>
+            <p>তারিখ:</p>
+            <img src="sign3.png" alt="Signature 3">
+        </div>
+    </div>
+</div>
+</div>
+<footer>© ২০২৪ ARODX | অংশীদারিত্ব চুক্তিপত্র</footer>
+
+<script>
+function toggleDarkMode() {
+    document.body.classList.toggle('dark-mode');
+}
+
+
+
+        // Right-click disable
+        document.addEventListener('contextmenu', function (e) {
+            e.preventDefault();
+        });
+
+        // Keyboard shortcuts disable
+        document.addEventListener('keydown', function (e) {
+            if (
+                e.key === 'F12' || 
+                (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'J')) || 
+                (e.ctrlKey && e.key === 'U')
+            ) {
+                e.preventDefault();
+            }
+        });
+   
+</script>
+</body>
+</html>
